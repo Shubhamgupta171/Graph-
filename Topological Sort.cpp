@@ -1,3 +1,6 @@
+// Def-->Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge u-v, vertex u comes before v in the ordering.
+
+//Approach-->Check if its directed acyclic graph and we have to arrange the elements in an order in which we need to select the most independent node at first. Number of in-node 0
 class Solution {
  	int V;
  	list<int>*adj;
